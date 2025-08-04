@@ -1,0 +1,1 @@
+**Define an abstract class Payment with an abstract method processPayment(). Subclasses: CreditCardPayment, PayPalPayment, BankTransferPayment. Implement the method in each subclass to handle payment processing differently.**
