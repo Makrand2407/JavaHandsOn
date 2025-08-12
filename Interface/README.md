@@ -1,0 +1,1 @@
+**Create an interface Playable with a method play(). Implement it in classes like Guitar, Piano, and Drums. Add a default method in the interface and observe how it works with the implementing classes.**
