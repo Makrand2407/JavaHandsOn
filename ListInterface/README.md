@@ -2,7 +2,7 @@
 - Ordered, allows duplicates
 - Index-based access
 -Implementing classes:
-  ArrayList
-  LinkedList
-  Vector
+  ArrayList,
+  LinkedList,
+  Vector,
   Stack
