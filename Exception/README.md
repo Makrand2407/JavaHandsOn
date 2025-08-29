@@ -1,1 +1,1 @@
-/**Create a class InvalidLoginException that extends Exception. In a method login(String username, String password): If username or password is empty, throw InvalidLoginException. Catch and display the error in main().**/
+**Create a class InvalidLoginException that extends Exception. In a method login(String username, String password): If username or password is empty, throw InvalidLoginException. Catch and display the error in main().**
