@@ -1,4 +1,2 @@
-**Create a LibraryBook class:
-Fields: title, author, isAvailable (all private).
-Methods: borrowBook() and returnBook() to update availability.
-Add getter methods to retrieve book details. Test how encapsulation ensures controlled access to the fields.**
+**This project demonstrates encapsulation and method usage in Java through a LibraryBook class.
+It shows how to use private fields, getters/setters, and methods to manage the state of an object.**
