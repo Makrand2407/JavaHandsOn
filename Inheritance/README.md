@@ -1,3 +1,2 @@
-**Design a class hierarchy:
-Appliance → WashingMachine → SmartWashingMachine.
-Each class should add unique fields and override a showDetails() method. Observe how inheritance simplifies code reuse and customization.**
+**This project demonstrates inheritance and method overriding in Java using an appliance hierarchy.
+It shows how classes can extend other classes, reuse code, and override methods to add specialized behavior.**
