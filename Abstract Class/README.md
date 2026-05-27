@@ -1,1 +1,2 @@
-**Define an abstract class Payment with an abstract method processPayment(). Subclasses: CreditCardPayment, PayPalPayment, BankTransferPayment. Implement the method in each subclass to handle payment processing differently.**
+**This project demonstrates abstraction and polymorphism in Java using a payment system.
+It shows how an abstract class can define a contract (processPayment) while subclasses provide specific implementations.**
