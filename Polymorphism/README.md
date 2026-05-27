@@ -1,2 +1,2 @@
-**Create a parent class Animal with a method makeSound(). Subclasses (Dog, Cat, Cow) override the method.
-Add a method that accepts Animal type and calls makeSound() 👉 See polymorphism flex at runtime**
+**This project demonstrates polymorphism and method overriding in Java using an Animal hierarchy.
+It shows how a parent class reference can point to different child class objects, and how overridden methods are invoked at runtime.**
