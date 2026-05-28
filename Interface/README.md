@@ -1,1 +1,2 @@
-**Create an interface Playable with a method play(). Implement it in classes like Guitar, Piano, and Drums. Add a default method in the interface and observe how it works with the implementing classes.**
+**This project demonstrates the use of interfaces and default methods in Java.
+It shows how multiple classes (Guitar, Piano, Drums) can implement a common interface (Playable) while providing their own behavior for the play() method.**
