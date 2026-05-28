@@ -1,7 +1,9 @@
 
 package com.pkg;
 
+// Class with overloaded methods using varargs
 class Print {
+	//Method to calculate sum of integers using varargs
 	void calculateSum(int... numbers) {
 		int sum = 0;
 		for (int s : numbers) {
@@ -10,6 +12,7 @@ class Print {
 		System.out.println("Sum : " + sum);
 	}
 
+	 // Overloaded method: accepts a double and then varargs of integers
 	void calculateSum(double d, int... numbers) {
 		System.out.println(d);
 		int sum = 0;
