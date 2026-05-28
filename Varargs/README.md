@@ -1,4 +1,2 @@
-**Write a method calculateSum(int... numbers) that:
-Accepts a variable number of integers.
-Calculates and prints their sum.
-Test the method with different numbers of arguments.**
+**This project demonstrates the use of varargs (variable-length arguments) and method overloading in Java.
+It shows how methods can accept a flexible number of parameters and how multiple versions of a method can coexist with different signatures.**
