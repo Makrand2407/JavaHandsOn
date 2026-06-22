@@ -9,7 +9,7 @@ import java.util.Vector;
 public class Main {
 
     public static void main(String[] args) {
-        // ===== ArrayList Example =====
+        // ===== ArrayList  =====
         ArrayList l1 = new ArrayList<>();
         System.out.println(l1.size()); // Initially empty → 0
         l1.add("A");
@@ -28,7 +28,6 @@ public class Main {
         System.out.println(l1.containsAll(l2)); // true
         System.out.println(l1.indexOf(10)); // 2
 
-        // ===== retainAll Example =====
         List l3 = new ArrayList<>();
         l3.add("A");
         l3.add("B");
@@ -48,7 +47,7 @@ public class Main {
         String s1 = (String) l3.get(0); // Type casting required
         System.out.println(s1); // A
 
-        // ===== Generics with ArrayList =====
+        // ===== Generics =====
         List<String> l5 = new ArrayList<>();
         System.out.println(l5.size()); // 0
         l5.add("C");
@@ -71,7 +70,7 @@ public class Main {
         l5.remove(2);   // Remove by index
         System.out.println(l5); // [C, O, R]
 
-        // ===== LinkedList Example =====
+        // ===== LinkedList =====
         LinkedList<Integer> l7 = new LinkedList<>();
         l7.add(3);
         l7.add(5);
@@ -94,7 +93,7 @@ public class Main {
         System.out.println(l7.pollLast()); // 2 (removes last)
         System.out.println(l7); // [7, 5]
 
-        // ===== Vector Example =====
+        // ===== Vector =====
         Vector<Integer> v = new Vector<>(3, 2); // Initial capacity 3, grows by 2
         System.out.println(v.size()); // 0
         System.out.println(v.capacity()); // 3
@@ -112,7 +111,7 @@ public class Main {
         System.out.println(v.capacity()); // 7
         System.out.println(v); // [1, 2, 3, 4, 5, 6]
 
-        // ===== Stack Example =====
+        // ===== Stack =====
         Stack<String> stack = new Stack<>();
         stack.push("A");
         stack.push("B");
